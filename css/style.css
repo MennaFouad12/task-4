@@ -1,0 +1,57 @@
+
+  .container {
+    margin: 30px auto 0;
+    background-color: #F6F6F6;
+    width: 600px;
+    padding: 30px;
+  }
+  
+  .checkbox{
+    float: left;
+  }
+  .delete{
+    float: right;
+    background-color:red;
+    padding: 4px 10px;
+    color: #FFF;
+    font-size: 12px;
+    font-weight: bold;
+    border-radius: 4px;
+    cursor: pointer;
+   
+  }
+  .finished{
+    text-decoration: line-through;
+  }
+  .task .add{
+    float: right;
+    background-color: rgb(68, 130, 210);
+    padding: 6px 15px;
+    color: #FFF;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 5px;
+  }
+  .task input{
+    margin-bottom: 20px;
+    display: inline-block;
+    padding: 10px 15px;
+    border: none;
+    background-color: white;
+   color: black;
+    font-size: 20px;
+  }
+  .task input:focus{
+    outline: none;
+  }
+  
+  .container .tasks-info > span:not(:last-child) {
+    margin-bottom: 10px;
+  }
+  .container .tasks-info > span{
+  display: block;
+border-bottom:1px solid black ;
+  padding: 10px;
+  }
